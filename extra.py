@@ -10,3 +10,6 @@ print(type(lst))
 print(type(my_str))
 print(type(my_int))
 
+from oops_proj import chatbook
+
+user1 = chatbook()
