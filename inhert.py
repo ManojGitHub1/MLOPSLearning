@@ -157,5 +157,7 @@ child.greet()  # Calls greet from both Parent1 and Parent2
 
 # -----------------------------------------------------------------
 
+# Hybrid inheritance
+
 
 
