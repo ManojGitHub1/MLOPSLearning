@@ -1,10 +1,43 @@
+
+
 class chatbook:
+
+    __user_id = 100  # static variable to keep track of user IDs
+
     def __init__(self):
+        # Encapsulation:
+        # Using private attributes to restrict direct access
+        # __name is a private attribute
+        self.__name = 'Chatbook'
+
+        # self.id = 0
+        # self.id += 1 static var but wrong syntax
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1  # Increment static user ID for each new instance
+
         self.username = ''
         self.password = ''
         self.logged_in = False
 
-        self.menu()
+        # self.menu()
+
+    # getter and setter methods for private attribute
+    # these methods allow controlled access to private attributes
+    def get_name(self):
+        return self.__name
+    
+    def set_name(self, name):
+        self.__name = name
+
+    # static methods to access and modify static variable
+    # static methods are bound to the class and not the instance so not need to pass self
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(id):
+        chatbook.__user_id = id    
     
     def menu(self):
         user_input = int(input(("""Welcome to Chatbook!
