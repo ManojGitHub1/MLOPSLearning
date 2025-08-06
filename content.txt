@@ -13,8 +13,16 @@
     > encapsulation
     > getter and setter
     > static methods
-    > Inheritance
 
+6. Inheritance
+    > why - code reuseability, parent has no access to child
+    > what gets inherited - Constructor, non private attr/methods
+    > Constructor overloading & method overloading
+    > Super keyword(can be used only inside child class, can not access var/attr)
+
+    > Types - Single, Multiple(Diamond problem), Multilevel, Hierarchical, Hybrid
+
+7. Extra
     > magic methods
     > decorator
     > garbage collector
