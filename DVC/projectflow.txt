@@ -4,3 +4,5 @@
 4. mkdir s3 (create new S3 directory)
 5. "dvc remote add -d myremote S3" sets default remote 
 6. "dvc add data/" tells dvc to versioning of that files inside folder
+7. "dvc commit" and "dvc push"
+8. git add-commit-push S3
