@@ -14,8 +14,8 @@ new_row_loc = { 'Name': 'David', 'Age': 28, 'City': 'San Francisco' }
 df.loc[len(df.index)] = new_row_loc
 
 # # Adding new row to df for V3
-# new_row_loc2 = { 'Name': 'Eve', 'Age': 22, 'City': 'Miami' }
-# df.loc[len(df.index)] = new_row_loc2
+new_row_loc2 = { 'Name': 'Eve', 'Age': 22, 'City': 'Miami' }
+df.loc[len(df.index)] = new_row_loc2
 
 # Ensure "data" directory exists at root level
 data_dir = 'data'
