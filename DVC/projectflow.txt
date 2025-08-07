@@ -4,7 +4,17 @@
 4. mkdir s3 (create new S3 directory)
 5. "dvc remote add -d myremote S3" sets default remote 
 6. "dvc add data/" tells dvc to versioning of that files inside folder
+
 7. "dvc commit" and "dvc push"
-8. git add-commit-push S3
+8. git add-commit-push S3 v1
+
 9. add new data to csv & check dvc status
 10. again "dvc commit-push"
+11. again git add-commit-push v2
+
+12. again "dvc commit-push"
+13. again git add-commit-push v3
+
+git log --oneline
+git checkout <hash> - git checkout main
+dvc pull
