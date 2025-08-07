@@ -1,1 +1,5 @@
-hi
+1. Create mycode.py (It will save a csv file to a new "data" folder)
+2. pip install dvc
+3. dvc init (creates .dvcignore, .dvc)
+4. mkdir s3 (create new S3 directory)
+5. "dvc remote add -d myremote S3"
