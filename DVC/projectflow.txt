@@ -6,3 +6,5 @@
 6. "dvc add data/" tells dvc to versioning of that files inside folder
 7. "dvc commit" and "dvc push"
 8. git add-commit-push S3
+9. add new data to csv & check dvc status
+10. again "dvc commit-push"
